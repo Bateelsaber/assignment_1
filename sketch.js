@@ -1,13 +1,15 @@
+var crab;
+
 function setup() {
 	// create a place to draw
 	createCanvas(640, 360);
-
+	crab = loadImage("crab.png");
 }
 
 function draw() {
 	// clear the background - skyblue
-  background(255, 0, 0);
-
+  background(0);
+	image(crab, 0, 0);
 	// set a fill color white
 	fill(255, 255, 255);
 	// draw ground
