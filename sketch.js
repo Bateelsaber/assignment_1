@@ -9,7 +9,6 @@ function setup() {
 function draw() {
 	// clear the background - skyblue
   background(0);
-	image(crab, 0, 0);
 	// set a fill color white
 	fill(33);
 	// draw a circle
